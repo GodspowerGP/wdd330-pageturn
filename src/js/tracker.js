@@ -181,7 +181,7 @@ async function showAuthorModal(authorName, bookTitle) {
     </div>
     <div class="modal-body">
       <p>${escapeHtml(bio.extract)}</p>
-      ${bio.wikiUrl ? `<p><a href="${escapeHtml(bio.wikiUrl)}" target="_blank" rel="noopener noreferrer" style="color:var(--accent); font-weight:600;">Read full Wikipedia article &rarr;</a></p>` : ''}
+      ${bio.wikiUrl ? `<p><a href="${escapeHtml(bio.wikiUrl)}" target="_blank" rel="noopener noreferrer" class="wiki-link">Read full Wikipedia article</a></p>` : ''}
     </div>`;
 }
 
