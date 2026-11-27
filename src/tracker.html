@@ -8,18 +8,18 @@
       content="PageTurn — Personal bookshelf and reading progress tracker."
     />
     <title>PageTurn | Personal Bookshelf</title>
-    <!-- Editorial Book Typography: Newsreader (optical size 6..72) & Plus Jakarta Sans -->
+    <!-- Proposal Literary Typography: Merriweather & Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <!-- Step 5: One frosted liquid glass dock, zero clutter -->
+    <!-- Frosted Liquid Glass Dock -->
     <header class="dock-wrapper">
       <nav class="liquid-dock" aria-label="Main Navigation">
         <a href="./index.html" class="dock-brand">PageTurn</a>
@@ -34,23 +34,21 @@
     </header>
 
     <main class="main-content">
-      <!-- Tracker Masthead with pinned corner specs & clean telemetry strip -->
+      <!-- Tracker Dashboard Stage -->
       <section class="stage-hero tracker-hero" aria-label="Bookshelf Dashboard">
         <span class="corner-spec corner-tl">COLLECTION // PERSONAL ARCHIVE</span>
         <span class="corner-spec corner-tr">STORAGE // SECURE LOCAL ENGINE</span>
         <span class="corner-spec corner-bl">READING METRICS // REAL-TIME</span>
         <span class="corner-spec corner-br">PROGRESS // ACTIVE LOG</span>
 
-        <!-- Step 1: Scale one bold typeface edge to edge -->
         <div class="edge-masthead" aria-hidden="true">BOOKSHELF</div>
 
-        <!-- Step 2: Floating center telemetry strip with studio key light & grounded shadow -->
         <div class="center-stage">
           <div class="center-console tracker-console">
             <h1 class="center-headline">Reading progress</h1>
             <p class="center-subhead">Track active volumes, update page milestones, and review completed works</p>
 
-            <!-- Minimalist Telemetry Bar (No 3-icon cards, clean editorial grid) -->
+            <!-- Minimalist Telemetry Bar with Proposal Triad Palette -->
             <div class="telemetry-grid" aria-label="Reading Statistics">
               <div class="telemetry-item">
                 <span class="telemetry-label">Saved Volumes</span>
@@ -70,7 +68,7 @@
               </div>
             </div>
 
-            <!-- Minimalist Shelf Filter Tabs -->
+            <!-- Shelf Filter Tabs -->
             <nav class="shelf-tabs" aria-label="Bookshelf filter tabs">
               <button type="button" class="shelf-tab active" data-shelf="all">All</button>
               <button type="button" class="shelf-tab" data-shelf="reading">Reading</button>
@@ -81,7 +79,7 @@
         </div>
       </section>
 
-      <!-- Saved Books Gallery (Airy, 60% whitespace layout) -->
+      <!-- Saved Books Gallery -->
       <section class="results-section">
         <div id="bookshelf-grid" class="book-grid" aria-live="polite">
           <!-- Populated dynamically by tracker.js -->
